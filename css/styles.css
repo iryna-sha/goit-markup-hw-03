@@ -1,0 +1,187 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    color:#4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+
+.logo-item {
+    color:#2E2F42;
+}
+
+.menu {
+    color:#2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+.menu:hover, 
+.menu:focus {
+color:#404bbf;
+} 
+
+.nav-header {
+font-style: normal;
+}
+
+.address {
+        color:#434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+.address:hover,
+.address:focus {
+color:#404bbf;
+}
+
+.main-header {
+    color:#FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-transform: capitalize;
+    line-height: 1.07;
+}
+
+.first-section {
+    background-color:#2E2F42;
+    text-align: center;
+}
+
+.button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    text-transform: capitalize; 
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.button:hover, 
+.button:focus {
+    background-color:#404BBF;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.head-features {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.features {
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px
+}
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+.section-header {
+    color: #2E2F42;
+    text-align:center;
+    font-size: 36px;
+    font-weight:700;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    line-height: 1.11;
+}
+
+.team-header { 
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.job-title {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.team-item  {
+background-color: #FFF;
+}
+
+.head-portfolio {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 1.11;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.head-srvc {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-txt {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.logo-item-footer {
+    color: #F4F4FD;
+}
