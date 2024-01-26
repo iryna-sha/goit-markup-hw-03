@@ -5,7 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.com/libraries/modern-normalize" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -50,20 +52,20 @@
             <div class="container">
                 <h2 class="section-header visually-hidden">Features</h2>
                 <ul class="second-section-list">
-                    <li>
+                    <li class="second-section-list-item">
                         <h3 class="head-features">Strategy</h3>
                         <p class="features">
                             Our goal is to identify the business problem to walk away with the
                             perfect and creative solution.
                         </p>
-                    </li>
+                    </li class="second-section-list-item">
                     <li>
                         <h3 class="head-features">Punctuality</h3>
                         <p class="features">
                             Bring the key message to the brand's audience for the best price
                             within the shortest possible time.
                         </p>
-                    </li>
+                    </li class="second-section-list-item">
                     <li>
                         <h3 class="head-features">Diligence</h3>
                         <p class="features">
@@ -71,7 +73,7 @@
                             growth opportunities and minimize risk.
                         </p>
                     </li>
-                    <li>
+                    <li class="second-section-list-item">
                         <h3 class="head-features">Technologies</h3>
                         <p class="features">
                             Design practice focused on digital experiences. We bring forth a
@@ -89,20 +91,27 @@
                     <li class="team-item">
                         <img class="team-item-img" src="./images/imgone.jpg"
                             alt="Picture of a man with a beard in a shirt" width="264" />
+                            <div class="name-title">
                         <h3 class="team-header">Mark Guerrero</h3>
                         <p class="job-title">Product Designer</p>
                     </li>
-                    <li class="team-item">
+                    </div>
+                    <div class="team-item">
                         <img class="team-item-img" src="./images/imgtwo.jpg" alt="Picture of a smiling man in a shirt"
                             width="264" />
+                            <div class="name-title"></div>
                         <h3 class="team-header">Tom Ford</h3>
                         <p class="job-title">Frontend Developer</p>
+                    </div>
                     </li>
                     <li class="team-item">
                         <img class="team-item-img" src="./images/imgthree.jpg"
                             alt="Picture of a woman in a pink sweater" width="264" />
+                        </li>
+                        <div class="name-title">
                         <h3 class="team-header">Camila Garcia</h3>
                         <p class="job-title">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="team-item-img" src="./images/imgfour.jpg"
@@ -157,10 +166,12 @@
     <footer class="footer">
         <div class="container">
             <a class=" logo logo-footer" href="./index.html">Web<span class="logo-item-footer">Studio</span></a>
+            <div class="name-title">
             <p class="footer-txt">
                 Increase the flow of customers and sales for your business with digital
                 marketing & growth solutions.
             </p>
+            </div>
         </div>
     </footer>
 </body>
