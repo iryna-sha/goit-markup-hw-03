@@ -191,7 +191,8 @@ img {
 }
 
 .second-section-list-item {
-    
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 72px;
 }
 
 .head-features {
@@ -240,7 +241,6 @@ img {
     padding-bottom: 32px;
 }
 
-
 .team-header {
     color: #2e2f42;
     text-align: center;
@@ -248,7 +248,11 @@ img {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
-    padding-bottom: 8;
+    padding-bottom: 8px;
+}
+
+.name-title {
+    padding: 32px 0;
 }
 
 .job-title {
@@ -263,6 +267,8 @@ img {
 
 .team-item {
     background-color: #fff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*!=========FORTH SECTION========!*/
@@ -306,6 +312,13 @@ img {
     letter-spacing: 0.32px;
     padding-bottom: 32px;
     border-bottom: 1px solid #E7E9FC;
+}
+
+.srvs-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
+
 }
 
 /*!=========FOOTER========!*/
