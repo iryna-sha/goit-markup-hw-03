@@ -170,7 +170,6 @@ img {
 .second-section-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -186,13 +185,10 @@ img {
     overflow: hidden;
 }
 
-.section-header {
-    text-align: center;
-}
-
 .second-section-list-item {
     width: calc((100% - 72px) / 4);
     margin-bottom: 72px;
+    gap: 24px;
 }
 
 .head-features {
@@ -233,7 +229,6 @@ img {
 .team-item-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -337,13 +332,11 @@ img {
     line-height: 24px;
     letter-spacing: 0.32px;
     padding-top: 17px;
-    padding-bottom: 100px;
     max-width: 264px;
 }
 
 .logo-footer {
     display: inline-block;
-    padding-top: 101px;
     margin-bottom: 16px;
 }
 
