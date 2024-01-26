@@ -138,7 +138,7 @@ img {
 .first-section {
     background-color: #2e2f42;
     text-align: center;
-    padding-bottom: 188px 0;
+    padding: 188px 0;
 }
 
 .button {
@@ -170,6 +170,7 @@ img {
 .second-section-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -190,7 +191,7 @@ img {
 }
 
 .second-section-list-item {
-    width: calc((100% - 72px) / 4);
+    
 }
 
 .head-features {
@@ -311,6 +312,7 @@ img {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 
